@@ -1,0 +1,50 @@
+# Archivos de configuración
+.env
+
+# Directorios de Docker
+#control/
+
+# Volumenes de Docker
+pgdata/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos de Node (si usas Node.js en algún momento)
+node_modules/
+
+# Archivos de Python (si usas Python en algún momento)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Archivos de Ruby (si usas Ruby en algún momento)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Cuando usas Bower o npm
+bower_components/
